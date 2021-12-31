@@ -67,7 +67,7 @@ public class HepsiburadaStepDefinitions {
     @Then("arama talebi oluştur sayfasından gönder butonuna tıklar")
     public void arama_talebi_oluştur_sayfasından_gönder_butonuna_tıklar() {
         Assert.assertEquals(aramaTalebiSayfaBaşlık, aramaTalebiSayfa.aramaTelebiSayfaBaşlık.getText());
-//        aramaTalebiSayfa.gönderbutonu.click();   //--> comment this line if you don't want to receive a call
+        aramaTalebiSayfa.gönderbutonu.click();   //--> comment this line if you don't want to receive a call
     }
 
 }
