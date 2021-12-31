@@ -10,3 +10,4 @@
       -- chrome-headless<br>
 * Projeyı Runner class üzerinden çalıştırabilirsiniz. Tag isimlerini değiştirerek entegrasyon testini de koşturabilirsiniz <br>
 * Test koşturma işlemi sona erdiğinde lokalinizde, test-output klasörü altında raporlar oluşacaktır. Bunun yanında test geçmemesi halinde de ekran görüntüsü alınıp hep rapora eklenecek hem de ayrıca bir klasörde tutulacaktır <br>
+* Projede test etmek için sahte kullanıcı oluşturulmuştur. Koşturmadan önce 'configuration.properties' dosyasından email ve şifreyi güncelleyebilirsiniz.
